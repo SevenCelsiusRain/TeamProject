@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KRz-LG-Tr0" customClass="QDDDetailCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KRz-LG-Tr0" id="zRQ-Cf-rT0">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="POM-Fy-PcT">
+                        <rect key="frame" x="10" y="5" width="355" height="290"/>
+                        <color key="backgroundColor" red="0.92941176470588238" green="0.93725490196078431" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wjZ-46-tn9">
+                        <rect key="frame" x="115" y="220" width="60" height="70"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <inset key="titleEdgeInsets" minX="-25" minY="30" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="15" minY="-25" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="行程" image="DestinationMenuIcon2">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="highlighted" image="DestinationMenuIcon2Highlight">
+                            <color key="titleColor" red="0.070588235294117646" green="0.53333333333333333" blue="0.85882352941176465" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="tripBtnClick:" destination="KRz-LG-Tr0" eventType="touchUpInside" id="Qna-g6-4fa"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9a-Cp-PoV">
+                        <rect key="frame" x="30" y="220" width="60" height="70"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <inset key="titleEdgeInsets" minX="-25" minY="30" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="15" minY="-25" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="游记" image="DestinationMenuIcon5">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="highlighted" image="DestinationMenuIcon5Highlight">
+                            <color key="titleColor" red="0.070588235294117646" green="0.53333333333333333" blue="0.85882352941176465" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="notesBtnClick:" destination="KRz-LG-Tr0" eventType="touchUpInside" id="FHq-Lo-uph"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jXD-Lu-wf0">
+                        <rect key="frame" x="200" y="220" width="60" height="70"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <inset key="titleEdgeInsets" minX="-25" minY="30" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="12" minY="-25" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="旅行地" image="DestinationMenuIcon3">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="highlighted" image="DestinationMenuIcon3Highlight">
+                            <color key="titleColor" red="0.070588235294117646" green="0.53333333333333333" blue="0.85882352941176465" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="traDestBtnClick:" destination="KRz-LG-Tr0" eventType="touchUpInside" id="a7b-RT-Ot0"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vwN-Gc-Dcf">
+                        <rect key="frame" x="285" y="220" width="60" height="70"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <inset key="titleEdgeInsets" minX="-25" minY="30" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="15" minY="-25" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="专题" image="DestinationMenuIcon1">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="highlighted" image="DestinationMenuIcon1Highlight">
+                            <color key="titleColor" red="0.070588235294117646" green="0.53333333333333333" blue="0.85882352941176465" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="topicBtnClick:" destination="KRz-LG-Tr0" eventType="touchUpInside" id="7Du-fO-p3D"/>
+                        </connections>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="07Z-vW-urt">
+                        <rect key="frame" x="10" y="10" width="355" height="210"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oGx-hT-d0O">
+                        <rect key="frame" x="313" y="12" width="40" height="40"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <state key="normal" image="OfflineBorderBarButtonHighlight">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="selected" image="OfflineBorderBarButton"/>
+                        <connections>
+                            <action selector="offlineBtnClick:" destination="KRz-LG-Tr0" eventType="touchUpInside" id="7id-hl-96K"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Cs-He-bxo">
+                        <rect key="frame" x="20" y="18" width="98" height="28"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Sq-gh-47Z">
+                        <rect key="frame" x="119" y="21" width="157" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btomView" destination="POM-Fy-PcT" id="jSx-6m-xNZ"/>
+                <outlet property="chNameL" destination="1Cs-He-bxo" id="taO-Vh-qi8"/>
+                <outlet property="enNameL" destination="7Sq-gh-47Z" id="CHs-7k-vdE"/>
+                <outlet property="imgView" destination="07Z-vW-urt" id="90c-zL-LOr"/>
+                <outlet property="offlineBtn" destination="oGx-hT-d0O" id="Xly-cW-5Z0"/>
+            </connections>
+            <point key="canvasLocation" x="241.5" y="261"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="DestinationMenuIcon1" width="24" height="24"/>
+        <image name="DestinationMenuIcon1Highlight" width="24" height="24"/>
+        <image name="DestinationMenuIcon2" width="24" height="24"/>
+        <image name="DestinationMenuIcon2Highlight" width="24" height="24"/>
+        <image name="DestinationMenuIcon3" width="24" height="24"/>
+        <image name="DestinationMenuIcon3Highlight" width="24" height="24"/>
+        <image name="DestinationMenuIcon5" width="24" height="24"/>
+        <image name="DestinationMenuIcon5Highlight" width="24" height="24"/>
+        <image name="OfflineBorderBarButton" width="23" height="23"/>
+        <image name="OfflineBorderBarButtonHighlight" width="23" height="23"/>
+    </resources>
+</document>
